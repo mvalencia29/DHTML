@@ -1,0 +1,46 @@
+html, body{
+  margin : 0;
+  padding: 0;
+  background: rgba(0,0,0,0.1);
+}
+
+.heading{
+  padding-top: 20px;
+  text-align: center;
+  color: inherit; #fff;
+}
+
+.container{
+  width: 100%;
+  padding: 20px;
+}
+
+div.tabs{
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+div.tabs .tablink {
+  background-color: inherit;
+  float: left;
+  border: :none;
+  cursor: pointer;
+  padding: 14px 16px;
+}
+
+div.tabs .tablink:hover {
+  background-color: #ddd;
+}
+
+div.tabs .tablink.active{
+  background-color: #ccc;
+}
+
+.tabcontent {
+  background: #fff;
+  display: block;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
